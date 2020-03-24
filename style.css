@@ -14,12 +14,6 @@ body {
   background: radial-gradient(ellipse 30% 20% at 50% 100%, rgba(138, 115, 108, 0.5), #F7F2E9);
 }
 
-.cbtn {
-  position: relative;
-  left: 10%;
-  display: block;
-}
-
 .circle {
   display: flex;
   margin-top: 25px;
@@ -67,6 +61,10 @@ body {
 
 H1, H4, H5 {
   text-align: center;
+}
+
+H2 {
+  margin-left: 20px;
 }
 
 .photo {
@@ -118,7 +116,7 @@ hr {
 
 .listExperience, .listLicense {
   padding: 1em 0 0 2em;
-  margin: 0;
+  margin: 20px;
   list-style: none;
   position: relative;
 }
